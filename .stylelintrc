@@ -1,5 +1,5 @@
 {
   "rules": {
-    
+    "time-min-milliseconds": 200
   }
 }
