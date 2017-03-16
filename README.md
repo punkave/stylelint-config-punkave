@@ -7,6 +7,6 @@ Add the following to `.stylelintrc` in root directory of project.
 
 ```json
 {
-  "extends": "punkave"
+  "extends": "stylelint-config-punkave"
 }
 ```
