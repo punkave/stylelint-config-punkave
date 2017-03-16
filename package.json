@@ -1,0 +1,14 @@
+{
+  "name": "stylelint-config-punkave",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "P'unk Ave",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punkave/stylelint-config-punkave.git"
+  },
+  "bugs": {
+    "url": "https://github.com/punkave/stylelint-config-punkave/issues"
+  },
+  "homepage": "https://github.com/punkave/stylelint-config-punkave#readme"
+}
