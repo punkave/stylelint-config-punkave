@@ -1,7 +1,47 @@
-'use strict';
-
 module.exports = {
-  'rules': {
-    'time-min-milliseconds': 200
+  "rules": {
+    "color-hex-case": "upper",
+    "color-hex-length": "short",
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "font-family-name-quotes": "always-where-recommended",
+    "font-family-no-duplicate-names": true,
+    "font-weight-notation": "numeric",
+    "number-leading-zero": "always",
+    "number-max-precision": 2,
+    "number-no-trailing-zeros": true,
+    "string-no-newline": true,
+    "length-zero-no-unit": true,
+    "unit-case": "lower",
+    "unit-no-unknown": true,
+    "value-keyword-case": "lower",
+    "value-list-comma-newline-after": "never-multi-line",
+    "value-list-comma-space-after": "always",
+    "value-list-comma-space-before": "never",
+    "value-list-max-empty-lines": 0,
+    "shorthand-property-no-redundant-values": true,
+    "property-case": "lower",
+    "property-no-unknown": true,
+    "property-no-vendor-prefix": true,
+    "declaration-no-important": true,
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-semicolon-newline-before": "never-multi-line",
+    "declaration-block-single-line-max-declarations": 1,
+    "declaration-block-trailing-semicolon": "always",
+    "block-closing-brace-empty-line-before": "never",
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "block-no-empty": true,
+    "indentation": 2,
+    "max-empty-lines": 0,
+    "max-nesting-depth": 2,
+    "selector-list-comma-newline-after": "always",
+    "string-quotes": "single",
+    "time-min-milliseconds": 200
   }
 };
