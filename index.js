@@ -4,6 +4,7 @@ module.exports = {
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
+    "declaration-property-unit-whitelist": { "line-height": [] },
     "font-family-name-quotes": "always-where-recommended",
     "font-family-no-duplicate-names": true,
     "font-weight-notation": "numeric",
