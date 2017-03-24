@@ -1,6 +1,5 @@
 module.exports = {
   "rules": {
-    "color-hex-case": "upper",
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
