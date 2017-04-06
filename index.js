@@ -38,9 +38,9 @@ module.exports = {
     "block-closing-brace-newline-before": "always-multi-line",
     "block-no-empty": true,
     "indentation": 2,
-    "max-empty-lines": 0,
+    "max-empty-lines": 1,
     "max-nesting-depth": 2,
-    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-after": "always-multi-line",
     "string-quotes": "single",
     "time-min-milliseconds": 200
   }
