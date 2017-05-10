@@ -1,4 +1,7 @@
 module.exports = {
+  "plugins": [
+		"stylelint-order"
+	],
   "rules": {
     "color-hex-length": "short",
     "color-named": "never",
@@ -41,6 +44,30 @@ module.exports = {
     "max-nesting-depth": 2,
     "selector-list-comma-newline-after": "always-multi-line",
     "string-quotes": "single",
-    "time-min-milliseconds": 200
+    "time-min-milliseconds": 200,
+    "order/order": [
+      "declarations",
+      "rules",
+      "at-rules"
+    ],
+    "order/properties-order": [
+      "z-index",
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "display",
+      "overflow",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "color",
+      "background",
+      "font-family",
+      "font-size",
+      "text-align"
+    ]
   }
 };
