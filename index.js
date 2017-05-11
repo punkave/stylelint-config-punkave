@@ -63,6 +63,7 @@ module.exports = {
       "height",
       "margin",
       "padding",
+      "border",
       "color",
       "background",
       "font-family",
