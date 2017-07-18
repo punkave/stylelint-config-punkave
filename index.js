@@ -36,7 +36,10 @@ module.exports = {
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-trailing-semicolon": "always",
     "block-closing-brace-empty-line-before": "never",
-    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-after": [
+      "always",
+      { "ignoreAtRules": ["if", "else"] }
+    ]
     "block-closing-brace-newline-before": "always-multi-line",
     "block-no-empty": true,
     "indentation": 2,
