@@ -49,7 +49,6 @@ module.exports = {
     "string-quotes": "single",
     "time-min-milliseconds": 200,
     "order/order": [
-      "at-rules",
       "declarations",
       "rules"
     ],
