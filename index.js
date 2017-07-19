@@ -1,7 +1,7 @@
 module.exports = {
   "plugins": [
-		"stylelint-order"
-	],
+    "stylelint-order"
+  ],
   "rules": {
     "color-hex-length": "short",
     "color-named": "never",
@@ -49,9 +49,9 @@ module.exports = {
     "string-quotes": "single",
     "time-min-milliseconds": 200,
     "order/order": [
+      "at-rules",
       "declarations",
-      "rules",
-      "at-rules"
+      "rules"
     ],
     "order/properties-order": [
       "z-index",
