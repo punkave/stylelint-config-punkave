@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-punkave",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "author": "P'unk Ave",
   "repository": {
