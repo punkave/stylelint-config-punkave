@@ -39,7 +39,7 @@ module.exports = {
     "block-closing-brace-newline-after": [
       "always",
       { "ignoreAtRules": ["if", "else"] }
-    ]
+    ],
     "block-closing-brace-newline-before": "always-multi-line",
     "block-no-empty": true,
     "indentation": 2,
