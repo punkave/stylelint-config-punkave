@@ -74,11 +74,20 @@ module.exports = {
       'text-align'
     ],
     'scale-unlimited/declaration-strict-value': [
-      '/color/',
-      'font',
-      'font-family',
-      'font-size',
-      'z-index'
+      [
+        '/color/',
+        'font',
+        'font-family',
+        'font-size',
+        'z-index'
+      ],
+      {
+        ignoreKeywords: [
+          'currentColor',
+          'inherit',
+          'initial'
+        ]
+      }
     ]
   }
 };
