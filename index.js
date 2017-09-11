@@ -26,7 +26,7 @@ module.exports = {
     'property-no-unknown': true,
     'property-no-vendor-prefix': true,
     'declaration-no-important': true,
-    'declaration-colon-space-after': 'always',
+    'declaration-colon-space-after': 'always-single-line',
     'declaration-colon-space-before': 'never',
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-redundant-longhand-properties': true,
