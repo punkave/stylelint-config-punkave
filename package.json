@@ -12,6 +12,7 @@
   },
   "homepage": "https://github.com/punkave/stylelint-config-punkave#readme",
   "dependencies": {
+    "stylelint-declaration-strict-value": "^1.1.2",
     "stylelint-order": "^0.4.4"
   }
 }
