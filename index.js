@@ -85,7 +85,8 @@ module.exports = {
         ignoreKeywords: [
           'currentColor',
           'inherit',
-          'initial'
+          'initial',
+          'transparent'
         ]
       }
     ]
