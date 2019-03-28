@@ -1,6 +1,7 @@
 module.exports = {
   'plugins': [
-    'stylelint-order'
+    'stylelint-order',
+    'stylelint-declaration-strict-value'
   ],
   'rules': {
     'color-hex-length': 'short',
@@ -71,6 +72,23 @@ module.exports = {
       'font-family',
       'font-size',
       'text-align'
+    ],
+    'scale-unlimited/declaration-strict-value': [
+      [
+        '/color/',
+        'font',
+        'font-family',
+        'font-size',
+        'z-index'
+      ],
+      {
+        ignoreKeywords: [
+          'currentColor',
+          'inherit',
+          'initial',
+          'transparent'
+        ]
+      }
     ]
   }
 };
