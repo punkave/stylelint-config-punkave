@@ -12,5 +12,8 @@ Add the following to `.stylelintrc` in root directory of project.
 ```
 
 ## Changelog
+### 1.1.0
+- Rules eased, removing the font-weight rule due to our practice of using a Sass function for the property.
+
 ### 1.0.0
 - Adds "declaration-strict-value," setting rules for variable use in specific properties.

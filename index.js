@@ -9,7 +9,6 @@ module.exports = {
     'color-no-invalid-hex': true,
     'declaration-property-unit-whitelist': { 'line-height': [] },
     'font-family-no-duplicate-names': true,
-    'font-weight-notation': 'numeric',
     'number-leading-zero': 'always',
     'number-max-precision': 2,
     'number-no-trailing-zeros': true,
