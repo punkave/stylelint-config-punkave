@@ -85,7 +85,8 @@ module.exports = {
           'currentColor',
           'inherit',
           'initial',
-          'transparent'
+          'transparent',
+          'auto'
         ]
       }
     ]
